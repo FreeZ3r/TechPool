@@ -1,0 +1,28 @@
+<ion-view title="Create a Thread" id="page11">
+  <ion-content padding="true" class="has-header">
+    <form id="createAThread-form8" class="list">
+      <label class="item item-input" id="createAThread-input18" name="topicinput">
+        <span class="input-label">Topic</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-select" id="createAThread-select1" name="categoryinput">
+        <span class="input-label">Category</span>
+        <select>
+          <option>Softwares</option>
+          <option>News</option>
+          <option>Question</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label class="item item-input" id="createAThread-textarea1" name="contentinput">
+        <span class="input-label">Content</span><textarea placeholder=""></textarea></label>
+    </form>
+    <div>
+      <form action="/action_page.php">
+        <input type="file" name="pic" accept="image/*">
+        <!-- <input type="submit"> -->
+      </form>
+    </div>
+    <a ui-sref="page()" id="createAThread-button12" class="button button-dark button-block">Submit</a>
+  </ion-content>
+</ion-view>
