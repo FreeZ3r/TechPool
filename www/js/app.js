@@ -16,7 +16,7 @@ var app = angular.module('TechPool', ['ionic', 'app.controllers', 'app.routes', 
 app.controller('forumController',function ($scope, $http) {
  $http({
      method: "GET",
-     url:"posts.php"
+     url:"C:/Projects/TechPool/resources/posts.php"
  }).then(function (data) {
      console.log(data);
  })
